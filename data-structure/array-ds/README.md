@@ -29,7 +29,7 @@ The second line contains `N` space-separated integers that make up `A`.
 
 Constraints
 * `1 <= N <= 10^3`
-* 1 <= A[i] <= 10^4`where  `A[i]`  is the  `i^th`  integer in  `A`
+* `1 <= A[i] <= 10^4` where `A[i]` is the `i^th` integer in `A`
 
 Sample Input 1
 ```
