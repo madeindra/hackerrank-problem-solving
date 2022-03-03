@@ -17,6 +17,7 @@ aVeryBigSum has the following parameter(s):
 ## Input Format
 
 The first line of the input consists of an integer .
+
 The next line contains  space-separated integers contained in the array.
 
 ## Output Format
