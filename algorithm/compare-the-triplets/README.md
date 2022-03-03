@@ -70,7 +70,7 @@ Now, let's compare each individual score:
 * a[0] > b[0], so Alice receives `1` point.
 * a[1] = b[1], so nobody receives a point.
 * a[2] < b[2], so Bob receives `1` point.
-* 
+
 Alice's comparison score is `1`, and Bob's comparison score is `1`. Thus, we return the array `[1, 1]`.
 
 ## Sample Input 1
