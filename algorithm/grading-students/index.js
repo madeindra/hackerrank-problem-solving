@@ -30,14 +30,9 @@ function readLine() {
  */
 
 function gradingStudents(grades) {
-    // Write your code here
     return grades.map((item) => {
-        if (item < 38) {
-            return item
-        } else if (item % 5 == 3) {
-            return item + 2;
-        } else if (item % 5 == 4) {
-            return item + 1;
+        if (item >= 38 && item % 5 > 2) {
+            return item + (5 - item % 5);
         } else {
             return item;
         }
